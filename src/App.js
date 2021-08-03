@@ -4,11 +4,11 @@ function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todo />
+      <Todo text='Learn React' />
       <br/>
-      <Todo />
+      <Todo text='Finish Bloodborne' />
       <br/>
-      <Todo />
+      <Todo text='5 months' />
       <br/>
     </div>
   );
