@@ -11,9 +11,6 @@ function App() {
       <Todo text='Finish Bloodborne' />
       <br/>
       <Todo text='5 months' />
-      <br/>
-      <Modal />
-      <Backdrop />
     </div>
   );
 }
