@@ -1,4 +1,6 @@
 import Todo from './components/Todo'
+import Modal from './components/Modal'
+import Backdrop from './components/Backdrop'
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <br/>
       <Todo text='5 months' />
       <br/>
+      <Modal />
+      <Backdrop />
     </div>
   );
 }
